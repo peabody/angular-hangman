@@ -8,7 +8,7 @@
     <pre *ngIf="!needWord" style="margin-right: 10px;">{{ hangMan.join('') }}</pre>
     <form *ngIf="needWord" name="wordForm" (submit)="onWordSubmit()" ngNativeValidate>
       <mat-form-field>
-        <input name="wordInput" [(ngModel)]="wordInput" matInput placeholder="Enter 5 or more letters" required pattern="[a-zA-Z]{5,}" title="Enter a 5 or more letter word." autofocus>
+        <input name="wordInput" [(ngModel)]="wordInput" matInput placeholder="Enter 5 or more letters" required pattern="[a-zA-Z]{5,}" title="Enter a 5 or more letter word." autofocus autocomplete="off">
       </mat-form-field>
     </form>
     <div *ngIf="!needWord">
