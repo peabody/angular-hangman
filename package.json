@@ -20,7 +20,7 @@
     "@angular/material": "^12.2.11",
     "@angular/platform-browser": "~12.2.11",
     "@angular/platform-browser-dynamic": "~12.2.11",
-    "@angular/pwa": "^0.802.2",
+    "@angular/pwa": "^13.3.4",
     "@angular/router": "~12.2.11",
     "@angular/service-worker": "~12.2.11",
     "rxjs": "~6.6.7",
